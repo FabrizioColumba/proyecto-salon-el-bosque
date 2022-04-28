@@ -1,0 +1,94 @@
+
+.cabecera__navegacion__lista li{
+   display: inline-flex;
+   margin: 15px;
+   border: solid 1px green;
+   padding: 15px;
+   justify-content: center
+}
+.cabecera__navegacion__lista li:hover{
+    transform: scale(1.3);
+}
+.cabecera__navegacion__lista li{
+    transition: transform 0.8s;
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 300px; 
+}
+
+.parrafoLorem15{
+    text-align: center;
+}
+footer{
+    background-color: green;
+    height: 60px;
+}
+.nav-link{
+    font-size: 24px;
+}
+.letras li{
+    display: inline-flex;
+   margin: 15px;
+   border: solid 1px green;
+   padding: px;
+   justify-content: center
+    }
+.d-block{
+        height: 900px ;
+    }
+
+.letras li:hover{
+    transform: scale(1.2);
+}
+.letras li{
+    transition: transform 0.8s;
+}
+.cabecera2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+text-align: left;
+position: relative;
+width: 80%;
+max-width: 1080px;
+margin: auto;
+}
+
+.ubi-footer{
+text-align: left;
+padding-top: 10px;
+float: left;
+}
+.redes{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 15px 0 5px;
+}
+
+labul {
+    display: block;
+    margin: .5em 0 0 0;
+    width: 40%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+}
+.mainContent{
+ margin: 40px auto;
+ display: grid;
+}
+
+input{
+    height: 20px;
+    transition: all 2s;
+}
+input:focus{
+    height: 25px;
+}
