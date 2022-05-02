@@ -17,67 +17,40 @@
     justify-content: space-between;
     align-items: center;
 }
+.header{
+    background-color: white;
+    height: 100px
+}
 .logo{
-    width: 300px;
-}
-nav{
-    display: inline-block;
-    width: fit-content;
+    width: 180px; 
+    flex-direction: row;
 }
 
-
-a {
-    text-decoration: none;
-    color: black
-}
-
-.foto2{
-    width: 600px;
-    height: 400px;
-    
-    
-}
-.foto1{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
-.parrafoL{
-    font-size: 16px;
-    margin-left: 15%;
-    font-style: oblique;
- 
-    
-}
 .parrafoLorem15{
     text-align: center;
 }
-.textoEnriquecido{
-    font-size: 32px;
-    font-weight: 700;
-    font-style: italic;
-}
-.textoAlineado{
-    display: flex;
-    flex-direction: row;
-    align-items:  center;
-}
 footer{
     background-color: green;
+    height: 60px;
 }
-
-.cabecera__navegacion__lista2 li{
+.nav-link{
+    font-size: 24px;
+}
+.letras li{
     display: inline-flex;
    margin: 15px;
-   border: solid 1px black;
-   padding: 15px;
+   border: solid 1px green;
+   padding: px;
    justify-content: center
+    }
+.d-block{
+        height: 900px ;
+    }
+
+.letras li:hover{
+    transform: scale(1.2);
 }
-.cabecera__navegacion__lista2 li:hover{
-    transform: scale(1.3);
-}
-.cabecera__navegacion__lista2 li{
+.letras li{
     transition: transform 0.8s;
 }
 .cabecera2{
@@ -85,15 +58,23 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-.redes{
-    text-align: right;
-    margin-right: 30px;
-   padding-top: 50px;
-   list-style: none;
-display: flex;
-justify-content: space-between;
-width: 40%;
+.container{
+text-align: left;
+position: relative;
+width: 80%;
+max-width: 1080px;
 margin: auto;
+}
+
+.ubi-footer{
+text-align: left;
+padding-top: 10px;
+float: left;
+}
+.redes{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 15px 0 5px;
 }
 
 labul {
@@ -115,17 +96,4 @@ input{
 }
 input:focus{
     height: 25px;
-}
-.carrusel{
-    width: 100%;
-    margin: 0px;
-    padding: 0px
-    background-image: url()
-    animation-name: carrusel;
-    animation-interation-count: infinite;
-    animation-duration: 20s;
-}
-
-@keyframes carrusel {
-    
 }
