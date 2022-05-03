@@ -65,6 +65,7 @@ font-size: 15px;
  display: grid;
 }
 
+
 input{
     height: 20px;
     transition: all 2s;
@@ -72,6 +73,22 @@ input{
 
 input:focus{
     height: 25px;
+}
+
+.fecha{
+    font-size: 30px;
+}      
+.aclaracion{
+  font-size: 18px;
+}
+.numeros{
+float: left;
+padding-left: 3rem;
+margin-left: 30px;
+}
+.lista-numeros li{
+  list-style: none;
+  font-size: 20px;
 }
 
  @media only screen and (max-width: 600px) {
@@ -97,5 +114,3 @@ input:focus{
         margin-left: 50px;
     }
 }
-
-        
