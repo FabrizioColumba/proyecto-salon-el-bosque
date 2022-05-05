@@ -1,0 +1,26 @@
+footer {
+  background-color: green;
+  height: 60px; }
+  footer .container {
+    text-align: left;
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto; }
+    footer .container .redes {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 15px 0 5px; }
+      footer .container .redes .ubi-footer {
+        font-size: 15px; }
+        footer .container .redes .ubi-footer .logos {
+          color: black; }
+
+.header {
+  background-color: white;
+  height: 100px; }
+
+main .lista-numero .titulo {
+  font-size: 24px; }
+  main .lista-numero .titulo .numero-de-telefono {
+    color: black; }

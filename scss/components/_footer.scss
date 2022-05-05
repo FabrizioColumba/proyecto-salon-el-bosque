@@ -1,0 +1,23 @@
+footer{
+    background-color: $color;
+    height: 60px;
+        .container{
+            text-align: left;
+            position: relative;
+            width: 80%;
+            max-width: 1080px;
+            margin: auto;
+                .redes{
+                display: flex;
+                justify-content:space-evenly;
+                padding: 15px 0 5px;
+                    .ubi-footer{
+                    font-size: 15px;
+                      .logos{
+                          color: $color2;
+                      }
+                    }
+                }
+            
+            }
+}
