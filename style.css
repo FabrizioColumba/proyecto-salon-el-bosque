@@ -20,10 +20,9 @@
 }
 
 .letras li{
-    display: inline-flex;
-   margin: 15px;
+   margin: 14px;
    border: solid 1px green;
-   justify-content: center
+   
     }
 
 .d-block{
@@ -60,7 +59,7 @@ input:focus{
     font-size: 30px;
 }      
 .aclaracion{
-  font-size: 15px;
+  font-size: 14px;
 }
 .numeros{
 float: left;

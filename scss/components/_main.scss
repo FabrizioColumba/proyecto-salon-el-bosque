@@ -3,8 +3,14 @@ main{
         .titulo{
             font-size: 24px;
             .numero-de-telefono{
-                color: $color2;
+                color: black;
+                font-size: large;
             }
+        }
+    }
+    p{
+        .parrafoLorem15{
+            @include flexbox(column, space-evenly, center);
         }
     }
 }

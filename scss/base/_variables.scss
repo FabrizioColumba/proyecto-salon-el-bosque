@@ -1,3 +1,51 @@
-$color: green;
-$tamanio: 15px;
-$color2: black;
+/* MAPS */
+$tamanios-bajos: (
+    tamanio: 60px,
+    tamanio1: 50px,
+    tamanio2: 30px,
+    tamanio3: 25px,
+    tamanio4: 20px,
+    tamanio5: 15px,
+    tamanio6: 12px,
+    tamanio7: 5px,
+    );
+
+$tamanios-altos: (
+    tamanio1: 1080px,
+    tamanio2: 800px,
+    tamanio3: 600px,
+    tamanio4: 500px,
+    tamanio5: 450px,
+    tamanio6: 350px,
+    tamanio7: 100px,
+    );
+    
+$colores: (
+    color-principal: green,
+    color-secundario: black,
+);
+
+/* EXTEND */
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* MIXIN */
+
+@mixin flexbox ($direction, $justify, $align) {
+    display: flex;
+    direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin contenedor($text, $posicion) {
+    text-align: $text;
+    position: $posicion;
+    width: 80%;
+    max-width: map-get($tamanios-altos, tamanio1);
+    margin: auto;
+}

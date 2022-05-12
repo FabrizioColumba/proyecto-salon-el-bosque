@@ -1,5 +1,11 @@
+body{
 .header{
     background-color: white;
-    height: 100px;
-    
+    height: map-get($tamanios-altos, tamanio7);
+     .navegador{
+         .letras li{
+             @extend %flex-center;
+                }
+        }       
+    }
 }

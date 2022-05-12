@@ -1,3 +1,11 @@
+/* MAPS */
+/* EXTEND */
+body .header .navegador .letras li {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+/* MIXIN */
 footer {
   background-color: green;
   height: 60px; }
@@ -10,17 +18,24 @@ footer {
     footer .container .redes {
       display: flex;
       justify-content: space-evenly;
-      padding: 15px 0 5px; }
+      padding: 15px 0 60px; }
       footer .container .redes .ubi-footer {
         font-size: 15px; }
         footer .container .redes .ubi-footer .logos {
           color: black; }
 
-.header {
+body .header {
   background-color: white;
   height: 100px; }
 
 main .lista-numero .titulo {
   font-size: 24px; }
   main .lista-numero .titulo .numero-de-telefono {
-    color: black; }
+    color: black;
+    font-size: large; }
+
+main p .parrafoLorem15 {
+  display: flex;
+  direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
