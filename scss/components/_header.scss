@@ -1,11 +1,10 @@
 body{
-.header{
+    .header{
     background-color: white;
     height: map-get($tamanios-altos, tamanio7);
-     .navegador{
-         .letras li{
-             @extend %flex-center;
-                }
-        }       
+        .logo {
+            width: 150px;
+        }
+
     }
 }

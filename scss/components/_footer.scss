@@ -1,20 +1,25 @@
-footer{
+footer {
     background-color: map-get($colores, color-principal);
 
     height: map-get($tamanios-bajos, tamanio);
-        .container{
-           @include contenedor (left, relative);
-                .redes{
-                display: flex;
-                justify-content:space-evenly;
-                padding: map-get($tamanios-bajos, tamanio5) 0 map-get($tamanios-bajos, tamanio);
-                    .ubi-footer{
-                    font-size: map-get($tamanios-bajos, tamanio5);
-                      .logos{
-                          color: map-get($colores, color-secundario);
-                      }
-                    }
-                }
-            
-     }
+
+    .container {
+        @include contenedor (left, relative);
+
+        .redes {
+            display: flex;
+            justify-content: space-evenly;
+            padding: map-get($tamanios-bajos, tamanio5) 0 map-get($tamanios-bajos, tamanio);
+
+            .ubi-footer {
+                font-size: map-get($tamanios-bajos, tamanio5);
+            }
+
+            .logos {
+                color: map-get($colores, color-secundario);
+            }
+
+        }
+
+    }
 }

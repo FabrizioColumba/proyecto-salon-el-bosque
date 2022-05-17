@@ -1,11 +1,12 @@
 /* MAPS */
 /* EXTEND */
-body .header .navegador .letras li {
-  display: flex;
-  justify-content: center;
-  text-align: center; }
-
 /* MIXIN */
+body .header {
+  background-color: white;
+  height: 100px; }
+  body .header .logo {
+    width: 150px; }
+
 footer {
   background-color: green;
   height: 60px; }
@@ -21,21 +22,32 @@ footer {
       padding: 15px 0 60px; }
       footer .container .redes .ubi-footer {
         font-size: 15px; }
-        footer .container .redes .ubi-footer .logos {
-          color: black; }
+      footer .container .redes .logos {
+        color: black; }
 
-body .header {
-  background-color: white;
-  height: 100px; }
-
-main .lista-numero .titulo {
-  font-size: 24px; }
-  main .lista-numero .titulo .numero-de-telefono {
-    color: black;
-    font-size: large; }
+main .numeros {
+  float: left;
+  padding-left: 3rem;
+  margin-left: 30px; }
+  main .numeros .lista-numeros .titulo {
+    font-size: 24px;
+    float: left; }
+  main .numeros .lista-numeros .lista-estilo {
+    list-style: none;
+    font-size: 20px; }
+    main .numeros .lista-numeros .lista-estilo .numero-de-telefono {
+      color: black;
+      font-size: large; }
 
 main p .parrafoLorem15 {
   display: flex;
   direction: column;
   justify-content: space-evenly;
   align-items: center; }
+
+main input {
+  height: 20px;
+  transition: all 2s; }
+
+main input:focus {
+  height: 25px; }
