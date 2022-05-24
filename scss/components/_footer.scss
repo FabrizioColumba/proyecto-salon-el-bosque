@@ -9,7 +9,7 @@ footer {
         .redes {
             display: flex;
             justify-content: space-evenly;
-            padding: map-get($tamanios-bajos, tamanio5) 0 map-get($tamanios-bajos, tamanio);
+            padding: map-get($tamanios-bajos, tamanio5) 0;
 
             .ubi-footer {
                 font-size: map-get($tamanios-bajos, tamanio5);

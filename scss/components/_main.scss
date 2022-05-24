@@ -1,4 +1,11 @@
 main{
+    .mainContent{
+        margin: 40px auto;
+        display: grid;
+        .d-block{
+            height: 800px ;
+         }
+    }
     .numeros {
         float: left;
         padding-left: 3rem;
@@ -37,3 +44,22 @@ main{
         height: 25px;
     }
 }
+@media only screen and (max-width: 600px) {
+    .d-block{
+        height: 500px;
+    }
+   
+}
+
+@media only screen and (max-width: 450px) {
+    .d-block{
+        height: 350px;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+.d-block{
+    height: 800px;
+}
+}   
