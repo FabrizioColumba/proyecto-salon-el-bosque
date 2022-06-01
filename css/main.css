@@ -1,23 +1,23 @@
 /* MAPS */
 /* EXTEND */
 /* MIXIN */
-.logo {
+.navbar .logo {
   width: 150px; }
 
-.navbar-toggler {
+.navbar .navbar-toggler {
   margin-right: 20px; }
 
-.letras li {
+.navbar .letras li {
   margin: 14px;
   border: solid 1px green; }
 
-.letras li {
+.navbar .letras li {
   transition: transform 0.8s; }
 
-.letras li:hover {
+.navbar .letras li:hover {
   transform: scale(1.2); }
 
-.nav-link {
+.navbar .nav-link {
   font-size: 24px; }
 
 @media only screen and (min-width: 500px) {
@@ -142,3 +142,7 @@ body {
     clear: both; }
   .noticia .texto5 {
     align-items: center; }
+
+@media only screen and (max-width: 542px) {
+  .izquierda {
+    width: 100%; } }

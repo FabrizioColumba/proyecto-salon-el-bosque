@@ -1,35 +1,43 @@
-.logo {
-    width: 150px;
-}
-.navbar-toggler{
-    margin-right: 20px;
-} 
+.navbar {
 
-.letras li {
-    margin: 14px;
-    border: solid 1px green;
+    .logo {
+        width: 150px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .letras li {
+        margin: 14px;
+        border: solid 1px green;
+    }
+
+    .letras li {
+        transition: transform 0.8s;
+    }
+
+    .letras li:hover {
+        transform: scale(1.2);
+    }
+
+    .nav-link {
+        font-size: 24px;
+    }
 }
 
-.letras li {
-    transition: transform 0.8s;
-}
-
-.letras li:hover {
-    transform: scale(1.2);
-}
-.nav-link{
-    font-size: 24px;
-}
 @media only screen and (min-width: 500px) {
-    .logo{
-       margin-left: 50px;
-   } 
-}
-@media only screen and (min-width: 850px) {
-    .logo{
+    .logo {
         margin-left: 50px;
     }
-    .navbar-toggler{
+}
+
+@media only screen and (min-width: 850px) {
+    .logo {
+        margin-left: 50px;
+    }
+
+    .navbar-toggler {
         margin-right: 50px;
     }
 }
