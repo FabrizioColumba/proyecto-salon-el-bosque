@@ -126,6 +126,14 @@ body {
   body .tz-gallery img {
     border-radius: 4px; }
 
+.somos {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+  .somos .derecha {
+    float: right; }
+  .somos .pount {
+    clear: both; }
+
 @media only screen and (max-width: 768px) {
   body {
     padding: 0; }
@@ -140,8 +148,6 @@ body {
     margin-right: 15px; }
   .noticia .reset {
     clear: both; }
-  .noticia .texto5 {
-    align-items: center; }
 
 @media only screen and (max-width: 542px) {
   .izquierda {

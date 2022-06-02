@@ -2,7 +2,6 @@ footer {
     background-color: map-get($colores, color-principal);
 
     height: map-get($tamanios-bajos, tamanio);
-
     .container {
         @include contenedor (left, relative);
 
